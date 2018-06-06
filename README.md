@@ -8,7 +8,7 @@ When it finishes loading and both containers are running, go to `localhost:8000`
 
 ## Volumes
 
-Docker creates a volume out of the `wp-content` folder, which containers everything that most developers will need: themes, plugins, uploads and sometimes things like caches and other temp files for plugins and frameworks.
+Docker creates a volume out of the `wp-content` folder, which contains everything that most developers will need: themes, plugins, uploads and sometimes things like caches and other temp files for plugins and frameworks.
 
 The `wp-content` folder is replicated the the host's (i.e. your computer's) folder where you installed `docker-compose.yml`. Everything you change there is replicated inside the WordPress container. Cool! 
 
